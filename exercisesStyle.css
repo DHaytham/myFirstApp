@@ -1,4 +1,71 @@
 
+/*
+
+Design new logo: an owl. Title: Night Owls. Slogan: Books worth staying up to
+
+We can do Affiliate Links!! if we actually end up publishing the website..
+
+Been thinking about turning the aesthetic of this website to look like a personal library.
+As if the shopper is looking at wooden shelves.
+And not a website..
+
+The header can look like a wall? Like those paper made for walls that already has design on them, or just wall paint.
+
+Diferent phrases for the search bar. Might be done with js.
+
+Make the search bar look like a conversation bubble? As if they are talking like in a comic?
+In that case (might be too complicated) original = employee asking from the left. Clicked = client responding from the right.
+
+Nav idk.. The roof of the library?
+
+Home, about, services and contact sound too websitety.. Need to think for alternatives. What would sound natural if that were said irl?
+Probably nothing. Forget it. That can stay
+
+Each one can be either a note pasted to the wall, a tag, o carved in the wood.
+
+Typography needs to change for a handwriting style.
+
+The footer can look like a stool? That would make sense
+
+I know we only need to practice first. These design choices can come later after we code the most essential.. 
+We seriously need to make a Trello page for this.
+
+I dont have internet right now, so I am writing my ideas here:
+
+* Core Feature User Stories
+- As a user...
+- As a user I want to be able to look for my own books, authors, genre..
+- As a user I want to see the books cover
+- As a user I want to click on the book that I like to see more information
+- As a user I want to read the books description
+- As a user I want to see the price
+- As a user I want to add things to my basket
+- As a user I want to eliminate things from my basket
+- As a user I want to be able to buy
+
+* Nice-to-Have User Stories
+- As a user...
+- As a user I want to create an account
+- As a user I want to be able to buy without creating an account
+- As a user I want to be notified when a book is available
+- As a user I want to read in the dark with my mouse as a lintern
+- As a user I want to filter
+- As a user I want to comment on each book I buy
+- As a user I want to 
+
+* Backlog
+
+* Bugs
+
+* Sprint
+
+* Review
+
+* Done
+
+
+*/
+
 /* --- Reset & box model --- */
 html, body {
     height: 100%; /* ensure the page can be sized by percentage */
@@ -22,7 +89,7 @@ html, body {
 
 /* --- Header --- */
 .header {
-    background-color: black;
+    background-color: rgb(32, 80, 8);
     padding: 0 20px;
     width: 100%;
     display: flex;
@@ -52,7 +119,7 @@ input[type="text"]{
     width: 100%;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1px solid rgb(102, 102, 102);
     padding-left: 10px;
     padding-right: 44px; /* leave room for the icon */
 }
@@ -62,7 +129,7 @@ input[type="text"]{
     right: 12px;
     top: 50%;
     transform: translateY(-50%);
-    color: #666;
+    color: #6f6f6f;
     font-size: 18px;
 }
 .icons {
@@ -84,7 +151,7 @@ nav{
     margin: 0px;
     display: flex;
     width: 100%;
-    background-color: cadetblue;
+    background-color: rgb(47, 31, 0);
 }
 #navList{
     display: flex;
@@ -96,7 +163,6 @@ nav{
 }
 .list-item{
     font-size: 20px;
-    background-color: cadetblue;
     margin: 0px;
     justify-self: flex-end;
     padding: 5px;
@@ -112,8 +178,9 @@ nav{
 }
 
 .content {
-    background-color: yellow;
-    border: 10px solid blue;
+    color: rgb(151, 86, 0);
+    background-color: rgb(65, 48, 0);
+    border: 10px solid rgb(47, 31, 0);
     padding: 20px;
     flex: 1 1 auto; /* take remaining width */
     min-width: 0; /* prevents long content from forcing horizontal scroll */
